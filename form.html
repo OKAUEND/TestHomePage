@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>テストフォーム</title>
+        <link rel = "stylesheet" type = "text/css" href = "styele.css">
+    </head>
+    <body>
+        <p class = "form_title">注文フォーム</p>
+        <form>
+            <h2 class = "error">※実際には送信されません</h2>
+            E-mail<br>
+            <input type = "text" name = "email"><br>
+            Password<br>
+            <input type = "text" name = "password"><br>
+            <br>
+            <div>
+            商品<br>
+            <input type = "checkbox" name = "pref[]" value = "1">つぶあん餅
+            <input type = "checkbox" name = "pref[]" value = "2">こしあん餅
+            <input type = "checkbox" name = "pred[]" value = "3">ずんだ餅
+            <input type = "checkbox" name = "pref[]" value = "4">かしわ餅
+            </div>
+            個数<br>
+            <select name = "value">
+                <option value = "1">1個</option>
+                <option value = "2">2個</option>
+                <option value = "3">3個</option>
+                <option value = "4">4個</option>
+                <option value = "5">5個</option>
+            </select>
+            <br>
+            <input type = "submit" name = "submit">
+        </form>
+    </body>
+</html>
